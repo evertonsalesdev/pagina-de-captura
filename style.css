@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+header{
+    width: 50%;
+    background-color: #00bfffc2;
+    margin: auto;
+}
+
+
+.title{
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+main{
+    width: 50%;
+    height: 500px;
+    background-image: url(./images/people.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.formulario{
+    width: 250px;
+    height: 340px;
+    background-color: #ffffff85;
+    margin-top: 50px;
+    margin-right: 25px;
+    float: right;
+}
+
+.formulario h2{
+    font-size: 15px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.formulario p{
+    font-size: 12px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: black;
+}
+
+
+.text{
+    width: 200px;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.email{
+    width: 200px;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+
+.input-single{
+    width: 100px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.input-single label{
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    color: gray;
+    font-size: 15px;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+.select{
+    margin-left: 10px;
+    margin-top: 15px;
+    border: none;
+}
+
+.select select{
+    width: 200px;
+    height: 25px;
+    border: none;
+}
+
+
+.button input{
+    background-color: #00bfff;
+    color: white;
+    text-transform:uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.button input:hover{
+    background-color: rgba(128, 128, 128, 0.432)
+}
+
+.palestrante{
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    background: rgba(128, 128, 128, 0.267);
+    text-align: center;
+    
+}
+
+.palestrante img{
+    width: 150px;
+    margin-top: 50px;
+}
+
+.sub-div{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 35px;
+}
+
+.sub-div h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sub-div p{
+    margin-bottom: 80px;
+    text-align: justify;
+}
+
+
+
+
